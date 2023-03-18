@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/numeroEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o número para calcular a tabuada"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/calcularButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"/>
+
+    <TextView
+        android:id="@+id/tabuadaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
